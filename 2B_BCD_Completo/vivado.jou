@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov  6 20:53:16 2022
+# Process ID: 4744
+# Current directory: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/2B_BCD - copia - copia
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21228 C:\Users\LAPTOP HP\Documents\Tec\DLogico\Proyecto3\2B_BCD - copia - copia\2B_BCD.xpr
+# Log file: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/2B_BCD - copia - copia/vivado.log
+# Journal file: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/2B_BCD - copia - copia\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/2B_BCD - copia - copia/2B_BCD.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source Test.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
