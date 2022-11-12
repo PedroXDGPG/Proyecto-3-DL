@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 12 15:29:26 2022
+# Process ID: 9100
+# Current directory: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/BCD_7Seg/BCD_7Seg.runs/synth_1
+# Command line: vivado.exe -log BCD_7Seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BCD_7Seg.tcl
+# Log file: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/BCD_7Seg/BCD_7Seg.runs/synth_1/BCD_7Seg.vds
+# Journal file: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/BCD_7Seg/BCD_7Seg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BCD_7Seg.tcl -notrace
