@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Booth/Booth.runs/synth_1'
+HD_PWD='C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/FF_Inicial/Booth.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

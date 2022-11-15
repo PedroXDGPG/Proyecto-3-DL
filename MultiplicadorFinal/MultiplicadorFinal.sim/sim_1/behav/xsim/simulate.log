@@ -1,0 +1,25 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+first example: a = 3 b = 17
+ab:   128 busy: 1 at time=                5000
+ab:   128 busy: 1 at time=               15000
+ab:   128 busy: 1 at time=               25000
+ab:   128 busy: 1 at time=               35000
+ab:   128 busy: 1 at time=               45000
+ab:   128 busy: 1 at time=               55000
+ab:   128 busy: 1 at time=               65000
+ab:   128 busy: 1 at time=               75000
+ab:   128 busy: 1 at time=               85000
+ab:   128 busy: 1 at time=               95000
+ab:    64 busy: 1 at time=              105000
+ab:    32 busy: 1 at time=              115000
+ab:    16 busy: 1 at time=              125000
+ab:     8 busy: 1 at time=              135000
+ab:     4 busy: 1 at time=              145000
+ab:     2 busy: 1 at time=              155000
+ab:     1 busy: 1 at time=              165000
+ab: 49152 busy: 0 at time=              175000
+ab:  8192 busy: 0 at time=              185000
+ab:  4096 busy: 0 at time=              195000
+first example done
+$finish called at time : 200 ns : File "C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/MultiplicadorFinal/MultiplicadorFinal.srcs/sim_1/new/Test.v" Line 15

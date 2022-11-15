@@ -1,32 +1,15 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 17.10.2022 19:43:13
-// Design Name: 
-// Module Name: Test
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Test(
     );
     reg clk = 1;
+    reg bot = 1;
     reg [7:0] A;
+    reg [7:0] B;
     wire [7:0] C;
+    wire [7:0] D;
     
-    Booth u1(clk,A,C);
+    Booth u1(clk,bot,A,B,C,D);
     initial
         begin
         forever 
@@ -37,9 +20,11 @@ module Test(
     
     initial 
     begin
-    A = 8'b1110000;
+    A = -127;
+    B = 17;
     #400;
-    A = 8'b1110011;
+    A = 8'b1000001;
+    B = 8'b0000111;
     #400;
     end   
     
