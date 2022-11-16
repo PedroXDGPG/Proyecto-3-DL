@@ -88,5 +88,4 @@ Utilizando la herramienta de "Report Power" del software de Vivado,genera una es
 Según las pruebas realizadas y el éxito del mismo se pudo lograr utilizar el clock con una frecuencia de 100 MHz
 
 # Problemas hallados
-
-El principal problema es cuando se interconectan los subsistemas, en este paso no funciona correctamente, en cambio por separado si funcionaron bien
+El principal problema que hemos tenido a lo largo del proyecto es que a la hora de interconectar los subsistemas creados individualmente, estos no funcionan de manera correcta a como funcionaban probándolos uno por uno, a la hora de representar los números decimales en los displays de 7 segmentos, estos no representan el numero correctamente al usar 8 displays, si se utilizan 4 displays si funciona, sin embargo al usar únicamente 4, no se puede multiplicar los números negativos. 
