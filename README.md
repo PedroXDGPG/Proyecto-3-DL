@@ -41,6 +41,9 @@ S3: En este estado se van a encender los LEDs correspondientes en base dos y tam
 
 ![](https://i.imgur.com/Roct3n4.png)
 
+
+
+
 Analizando la simulacion, las entradas G0, G1, G2 y G3, son los valores introducidos en los switches de la FPGA, el bot es el botón que da el paso a realizar la lectura, en la simulacion se observa como son reconocidos los datos introducidos, seguidamente es transformado a codigo binario, esto lo observamos en bin[3:0], luego se realiza la convercion a codigo hexadecimal, esto se observa en seg[6:0], todas esta operaciones fueron realizadas bajo el tiempo del clock.
 
 # Análisis de consumo
