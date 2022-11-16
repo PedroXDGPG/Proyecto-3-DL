@@ -38,7 +38,8 @@ En el tercer bloque se realiza la decodificacion del codigo binario a una BCD el
 
 # Diagramas de estado
 
-![](https://i.imgur.com/I967Mda.png)
+
+![351](https://user-images.githubusercontent.com/110325468/202138251-6cb19533-175c-4218-9faa-011bff72f5cb.png)
 
 
 
@@ -47,11 +48,11 @@ En el tercer bloque se realiza la decodificacion del codigo binario a una BCD el
 
 
 
-S0: En este estado se introduce el valor en codigo de Gray, el TA es el botón que va tener la función de accionar la lectura del mismo.
+S0: En este estado se introduce el valor el valor de A y B, Button es el botón que dice cuando iniciar la operación.
 
-S1: En este paso se realiza la lectura del valor en Gray
+S1: Este estado es meramente el multiplicador, posee una bandera valid que evalúa si la operación se puede relacionar o no.
 
-S2: El S2 es la conversion de codigo Gray a Binario.
+S2: El S2 consiste en la conversión de binario a BCD, posee una bandera DONE que indica si logró realizar la conversión.
 
 S3: En este estado se van a encender los LEDs correspondientes en base dos y también se realiza la conversion e iluiminacion de los LEDs de los segmentos del display.
 
