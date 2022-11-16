@@ -22,6 +22,9 @@ Para este circuito se utiliza una FPGA Nexys A7 Artix-7, progamandola desde el s
 
 ![](https://i.imgur.com/zHqvUgs.png)
 
+
+
+
 En el primer bloque entra un código Gray insertado por el usuario, mediante los switches.
 
 
@@ -32,6 +35,14 @@ En el tercer bloque se realiza la decodificacion del codigo binario a una repres
 # Diagramas de estado
 
 ![](https://i.imgur.com/I967Mda.png)
+
+
+
+
+
+
+
+
 S0: En este estado se introduce el valor en codigo de Gray, el TA es el botón que va tener la función de accionar la lectura del mismo.
 S1: En este paso se realiza la lectura del valor en Gray
 S2: El S2 es la conversion de codigo Gray a Binario.
