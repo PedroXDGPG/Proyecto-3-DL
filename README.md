@@ -89,8 +89,4 @@ Según las pruebas realizadas y el éxito del mismo se pudo lograr utilizar el c
 
 # Problemas hallados
 
-En la realización del proyecto se presentaron distintos errores, el principal fue un error en el programa SystemVerilog el cual no detectaba la licencia por un error en el servidor, como solución se contactó a AMD y se instaló el programa localmente.
-
-Otro problema que se presentó es que al experimentar con la FPGA el pinout de la Nexys era diferente a la que se había establecido en el código anteriormente, por lo que al ejecutarlo se presentaban problemas, para solucionarlo se tuvo que reescribir el pinout correspondiente ya que se tenía un orden diferente y se encendían en orden distintos.
-
-Con los 7 segmentos no se lograban formar números debido a que cada LED tiene un orden distinto y específico, por lo que se tuvo que averiguar cual bit correspondía con el segmento del display para este modelo de Nexys.
+El principal problema es cuando se interconectan los subsistemas, en este paso no funciona correctamente, en cambio por separado si funcionaron bien
