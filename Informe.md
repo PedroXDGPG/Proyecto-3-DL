@@ -89,4 +89,5 @@ Según las pruebas realizadas y el éxito del mismo se pudo lograr utilizar el c
 
 # Problemas hallados
 El principal problema que hemos tenido a lo largo del proyecto es que a la hora de interconectar los subsistemas creados individualmente, estos no funcionan de manera correcta a como funcionaban probándolos uno por uno, a la hora de representar los números decimales en los displays de 7 segmentos, estos no representan el numero correctamente al usar 8 displays, si se utilizan 4 displays si funciona, sin embargo al usar únicamente 4, no se puede multiplicar los números negativos. 
+
 En el momento en que se juntaron los subsistemas el multiplicador dejó de funcionar debido a que no está leyendo multiplicador, solo el multiplicando, generando un operación errónea.
