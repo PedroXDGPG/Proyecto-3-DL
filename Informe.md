@@ -6,7 +6,7 @@
 
 
 <p style="text-align: center;">
-Estudiantes: Randall Mariño Oviedo, Pedro Medinila Robles, Tyler Ureña Vargas
+Estudiantes: Tyler Ureña Vargas, Randall Mariño Oviedo y Pedro Medinila Robles, 
 
 </p>
     
