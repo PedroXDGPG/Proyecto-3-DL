@@ -27,6 +27,7 @@ El circuito consta de tres bloques de constructivos o subsistemas:
 
 Estos subsistemas deberán interconectarse para dar visualmente el resultado en el display
 # Diagramas de bloques
+![imagen](https://user-images.githubusercontent.com/110325468/202393736-bbca4861-f827-44e8-9544-3238fc161064.png)
 
 ![](https://i.imgur.com/oUW2mWd.png)
 
