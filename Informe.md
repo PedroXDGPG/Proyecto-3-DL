@@ -29,6 +29,7 @@ Estos subsistemas deberán interconectarse para dar visualmente el resultado en 
 # Diagramas de bloques
 ![imagen](https://user-images.githubusercontent.com/110325468/202393736-bbca4861-f827-44e8-9544-3238fc161064.png)
 
+![615](https://user-images.githubusercontent.com/110325468/202394086-13573b74-4d9f-4f6c-a872-9dfd4879f98c.png)
 
 
 
@@ -40,8 +41,6 @@ En el tercer bloque se realiza la decodificacion del codigo binario a una BCD el
 
 
 ![351](https://user-images.githubusercontent.com/110325468/202138251-6cb19533-175c-4218-9faa-011bff72f5cb.png)
-
-
 
 
 
@@ -79,9 +78,9 @@ Utilizando la herramienta de "Report Utilization" del software de Vivado, dio co
 
 
 
-Utilizando la herramienta de "Report Power" del software de Vivado,genera una estimación del consumo de FPGA, la utilizada es el modelo Nexys A7 Artix-7, consumiendo 0.111 W.
+Utilizando la herramienta de "Report Power" del software de Vivado,genera una estimación del consumo de FPGA, la utilizada es el modelo Nexys A7 Artix-7, consumiendo 0.010 W.
 
-![](https://i.imgur.com/V1UnUSS.png)
+![image](https://user-images.githubusercontent.com/110325468/202394282-dbc54d05-f00b-401f-bbf5-28cf062a2fe8.png)
 
 # Reporte de velocidades
 
