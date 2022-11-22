@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 21 23:49:06 2022
+# Process ID: 17044
+# Current directory: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/ProyectoFinal - copia
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15472 C:\Users\LAPTOP HP\Documents\Tec\DLogico\Proyecto3\Proyecto-3-DL\ProyectoFinal - copia\ProyectoFinal.xpr
+# Log file: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/ProyectoFinal - copia/vivado.log
+# Journal file: C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/ProyectoFinal - copia\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/ProyectoFinal - copia/ProyectoFinal.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/LAPTOP HP/Documents/Tec/DLogico/Proyecto3/Proyecto-3-DL/ProyectoFinal - copia'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:57 ; elapsed = 00:00:29 . Memory (MB): peak = 689.742 ; gain = 98.035
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 769.266 ; gain = 0.000
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 790.152 ; gain = 17.016
+INFO: [Common 17-344] 'open_run' was cancelled
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 22 00:08:00 2022...
